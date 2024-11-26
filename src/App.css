@@ -1,0 +1,22 @@
+@import "./global.css";
+
+.posts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.post-counter-container {
+  font-family: "Rubik", sans-serif;
+  color: var(--grey);
+  font-weight: 200;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  user-select: none;
+  cursor: default;
+}
